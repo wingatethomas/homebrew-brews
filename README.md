@@ -5,7 +5,7 @@ Menu bar app that monitors running Claude Code sessions.
 ## Install
 
 ```bash
-brew tap wingatethomas/claudewatch
+brew tap wingatethomas/brews
 brew install --cask claudewatch
 ```
 
