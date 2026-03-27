@@ -13,7 +13,7 @@ cask "claudewatch" do
   app "ClaudeWatch.app"
 
   zap trash: [
-    "~/Library/Preferences/com.claudewatch.plist",
-    "~/.claudewatch",
+    "~/Library/Application Support/ClaudeWatch",
+    "~/Library/LaunchAgents/com.claudewatch.plist",
   ]
 end
